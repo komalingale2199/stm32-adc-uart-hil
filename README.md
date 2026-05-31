@@ -15,8 +15,9 @@ that validates all output — PASSED 4/4 assertions.
 | Claude | Schematic review + code generation |
 
 ## Results
-![Wokwi simulation running](WOKWI_WORKING.png)
+![Wokwi simulation running](wokwi_screenshot.png)
 ![PASSED 4/4 assertions](terminal_screenshot.png)
+![Altium schematic](Altium_schematic.png)
 
 ## Project structure
 ```
