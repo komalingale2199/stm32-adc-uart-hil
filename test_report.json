@@ -1,0 +1,169 @@
+{
+  "run_at": "2026-05-31T13:07:57",
+  "summary": "PASSED 4/4 assertions",
+  "all_passed": true,
+  "assertions": [
+    {
+      "name": "All \"status\" == \"OK\"",
+      "passed": true,
+      "detail": "All 20 samples OK"
+    },
+    {
+      "name": "All mv in [100, 3200]",
+      "passed": true,
+      "detail": "All 20 mv values in range"
+    },
+    {
+      "name": "All temp in [-40, 125]",
+      "passed": true,
+      "detail": "All 20 temp values in range"
+    },
+    {
+      "name": "No ts gap > 600 ms",
+      "passed": true,
+      "detail": "All 19 transitions within 600 ms"
+    }
+  ],
+  "samples": [
+    {
+      "ts": 1000,
+      "raw": 281,
+      "mv": 226,
+      "temp": 25.5,
+      "status": "OK"
+    },
+    {
+      "ts": 1500,
+      "raw": 217,
+      "mv": 174,
+      "temp": 27.0,
+      "status": "OK"
+    },
+    {
+      "ts": 2000,
+      "raw": 260,
+      "mv": 209,
+      "temp": 28.8,
+      "status": "OK"
+    },
+    {
+      "ts": 2500,
+      "raw": 276,
+      "mv": 222,
+      "temp": 30.1,
+      "status": "OK"
+    },
+    {
+      "ts": 3000,
+      "raw": 237,
+      "mv": 190,
+      "temp": 30.1,
+      "status": "OK"
+    },
+    {
+      "ts": 3500,
+      "raw": 218,
+      "mv": 175,
+      "temp": 29.7,
+      "status": "OK"
+    },
+    {
+      "ts": 4000,
+      "raw": 244,
+      "mv": 196,
+      "temp": 28.4,
+      "status": "OK"
+    },
+    {
+      "ts": 4500,
+      "raw": 238,
+      "mv": 191,
+      "temp": 27.0,
+      "status": "OK"
+    },
+    {
+      "ts": 5000,
+      "raw": 234,
+      "mv": 188,
+      "temp": 24.9,
+      "status": "OK"
+    },
+    {
+      "ts": 5500,
+      "raw": 236,
+      "mv": 190,
+      "temp": 22.8,
+      "status": "OK"
+    },
+    {
+      "ts": 6000,
+      "raw": 215,
+      "mv": 173,
+      "temp": 21.6,
+      "status": "OK"
+    },
+    {
+      "ts": 6500,
+      "raw": 219,
+      "mv": 176,
+      "temp": 20.5,
+      "status": "OK"
+    },
+    {
+      "ts": 7000,
+      "raw": 212,
+      "mv": 170,
+      "temp": 20.4,
+      "status": "OK"
+    },
+    {
+      "ts": 7500,
+      "raw": 243,
+      "mv": 195,
+      "temp": 20.5,
+      "status": "OK"
+    },
+    {
+      "ts": 8000,
+      "raw": 291,
+      "mv": 234,
+      "temp": 21.8,
+      "status": "OK"
+    },
+    {
+      "ts": 8500,
+      "raw": 276,
+      "mv": 222,
+      "temp": 23.9,
+      "status": "OK"
+    },
+    {
+      "ts": 9000,
+      "raw": 230,
+      "mv": 185,
+      "temp": 26.0,
+      "status": "OK"
+    },
+    {
+      "ts": 9500,
+      "raw": 280,
+      "mv": 225,
+      "temp": 27.8,
+      "status": "OK"
+    },
+    {
+      "ts": 10000,
+      "raw": 262,
+      "mv": 211,
+      "temp": 29.4,
+      "status": "OK"
+    },
+    {
+      "ts": 10500,
+      "raw": 214,
+      "mv": 172,
+      "temp": 29.7,
+      "status": "OK"
+    }
+  ]
+}
